@@ -1,0 +1,56 @@
+.Auth_Container{
+    width: 100vw;
+    position: absolute;
+    height: 100vh;
+    z-index: 500;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+.Auth_Container2{
+    padding: 0.5rem;
+    display: flex;
+    position: absolute;
+    right: 4.5rem;
+    text-align: center;
+    top: 1rem;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 1px 1px 6px 0px #808080bf;
+    color: black;
+    z-index: 500;
+}
+.User_details{
+    margin: 0 auto;
+    display: flex;
+    padding: 0.7rem;
+    border-bottom: 2px solid grey;
+    padding-inline-start: 1.2rem 0.9rem;
+}
+.email_auth{
+    font-size: larger;
+    padding: 0.2rem 0.5rem;
+    font-weight: bolder;
+    margin: auto;
+}
+.btn_auth{
+    font-weight: bolder;
+    font-size: larger;
+    padding: 0.5rem 0.5rem;
+    border: 0;
+    margin: 0rem 0;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+.btn_auth:hover{
+    background-color: rgb(131 126 126 / 13%);
+}
+.btns_auth{
+    padding: 0.5rem 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}

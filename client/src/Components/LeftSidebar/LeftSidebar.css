@@ -1,0 +1,90 @@
+.container_Leftsidebar{
+    width: 72px;
+    height: calc(100vh - 3.55rem);
+    box-sizing: border-box;
+    overflow-y: auto;
+    
+}
+.icon_sidebar_div{
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    padding-top: 2vh;
+    color: black;
+}
+.icon_sidebar{
+    margin: auto;
+    
+}
+.text_sidebar_icon{
+    text-align: center;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 0.2rem;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+    max-height: 1.4rem;
+}
+.icon_sidebar_div:hover,
+.icon_sidebar_div.active{
+    background-color: rgb(217 217 217 / 33%);
+    border-radius:13px ;
+}
+/*Drawslider Css*/
+.container_drawsliderbar{
+    
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    z-index: 500;
+}
+.container2_drawsliderbar{
+    overflow-y: auto;
+    width: 15rem;
+    height: calc(100vh - 3.6rem);
+    background-color: white;
+}
+.drawer_leftsidebar{
+    padding-top: 0.5rem;
+    border-bottom: 2px solid rgba(128,128,128,0.293);
+    margin-left:11px ;
+}
+.icon_sidebar_div p{
+    display: flex;
+    margin: 0;
+}
+.Subscription_box{
+    padding-top: 0.5rem;
+    border-bottom: 2px solid rgba(128,128,128,0.293);
+    margin-left:11px ;
+}
+.chanel_subscribed{
+    display: flex;
+    padding: 0.5rem;
+    padding-top: 2vh;
+    cursor: pointer;
+}
+.chanel_subscribed img{
+    border-radius: 100%;
+    width: 4vh;
+    height: 4vh;
+    margin: auto 0.1rem;
+}
+.chanel_subscribed p{
+    margin: auto 1.1rem;
+}
+.text_div{
+    margin: auto 0.4rem;
+}
+.chanel_subscribed:hover{
+    background-color: rgb(217 217 217 / 33%);
+    border-radius:13px ;
+}
+.container3_drawsliderbar{
+    flex-grow: 1;
+    background-color:transparent;
+    backdrop-filter: blur(3px);
+}

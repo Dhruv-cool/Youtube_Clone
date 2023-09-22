@@ -1,0 +1,114 @@
+.container_videopage{
+    height: calc(100vh - 3.4rem);
+    overflow-y: auto;
+}
+.container2_videopage{
+    margin: 1.5rem 1.5rem;
+    display: flex;
+}
+.video_display_screen_videopage{
+    width: calc(100vw - 4.5rem - 32vw);
+    padding: 1rem;
+}
+.video_showVideo_VideoPage{
+    padding: 0.1rem;
+    height: 70vh;
+    width: 100%;
+
+}
+.video_btn_title_videopage{
+    font-size: large;
+    font-weight: bolder;
+    margin: 2vh 0px;
+}
+.chanel_details img{
+    width: 6vh;
+    height: 6vh;
+    margin: -2vh -2vh;
+}
+.chanel_details{
+    display: flex;
+}
+.chanel_name_subs{
+    margin-left: 2vh;
+}
+.chanel_name{
+    margin: auto;
+    font-size: 3vh;
+}
+.subscribers_videopage{
+    margin: auto;
+}
+.join_btn{
+    padding: 1vh;
+    border-radius: 20px;
+    /* outline: brown; */
+    background-color: white;
+    width: 4rem;
+    border: 1px solid rgb(145 144 144 / 92%);
+    text-align: center;
+    margin-right: 1vh;
+    height: 6vh;
+    cursor: pointer;
+}
+.join_subscribe_btn{
+    margin: 0vh 2vw;
+    display: flex;
+}
+.subscribe_btn{
+    padding: 1vh;
+    width: 14vh;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    height: 6vh;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-right: 5vh;
+}
+.subscribed_btn{
+    padding: 1vh;
+    width: 19vh;
+    border-radius: 20px;
+    height: 6vh;
+    cursor: pointer;
+    font-size: 2.03vh;
+    text-align: center;
+    /* padding-top: 1vh; */
+    font-weight: bolder;
+    background-color: rgb(217 217 217 / 33%);
+    border: transparent;
+}
+.bell_icon{
+    margin: -1vh 1vh;
+}
+.views_upload_description{
+    display: flex;
+    /* margin: auto; */
+    margin-top: 2rem;
+    width: 100%;
+    background-color: rgb(217 217 217 / 33%);
+    height: var(min(3rem) 6rem max(7rem) );
+    height: calc(13rem - 4rem - 4vh );
+    border-radius: 12px;
+}
+.views_upload{
+    display: flex;
+    margin: 2vh 3vh;
+}
+.comments_section{
+    display: flex;
+    margin-top: 1rem;
+}
+.Sort_icon{
+    margin: inherit;
+    margin: inherit 2rem;
+    /* margin: 2vh; */
+    margin-left: 2rem;
+    margin-right: 2vh;
+}
+.more_contents{
+    width: calc(100vw - 4.5rem -70vw);
+    padding: 0 1rem;
+}

@@ -1,0 +1,34 @@
+.Chanel_logo_App{
+  width: 2.2rem;
+  height: 2.2rem;
+  border-radius: 100%;
+  background-color: rgb(224,227,214);
+  display: flex;
+}
+.fstChar_logo_App{
+  margin: auto;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.container_pages_App{
+  display: flex;
+  
+}
+.container2_pages_App{
+  width: calc(100vw - 5rem);
+  height: calc(100vh - 3.5rem);
+  
+  overflow-y: auto;
+}
+.video_box_app{
+  width: 26rem;
+  height: 18rem;
+  margin-bottom: 1rem;
+  border: 2px solid transparent;
+  margin-top: 5vh;
+}
+.library_showvideo{
+  width: 20rem;
+  height: 14rem;
+}

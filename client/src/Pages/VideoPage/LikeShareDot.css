@@ -1,0 +1,86 @@
+.btn_like_share_dots{
+    display: flex;
+    margin: auto;
+}
+.btns_all{
+    display: flex;
+    width: fit-content;
+    background-color: rgb(217 217 217 / 33%);
+    height: 6vh;
+    border-radius: 20px;
+    margin-right:1vh ;
+    cursor: pointer;
+}
+.btn_like{
+    display: flex;
+    width: 3.7rem;
+    height: 5vh;
+    margin: auto 2.1vh;
+    /* border-radius: 20px; */
+    border: 0 0 0 1px solid grey;
+    outline: grey;
+    /* border: 1px solid; */
+    border-right: 1px solid grey;
+}
+.like_sign{
+    height: 5vh;
+    width: 4vh;
+}
+.btn_like p{
+    margin: 0.4vh 1vh;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.btn_dislike{
+    width: 2rem;
+    margin: 1vh 1vh;
+}
+.dislike_sign{
+    width: 4vh;
+    height: 5vh;
+}
+.btn_share{
+    
+    display: flex;
+    /* justify-content: center; */
+    margin: auto auto;
+    /* padding: 1vh; */
+    width: 7rem;
+}
+.share_sign{
+    width: 4vh;
+    height: 5vh;
+    /* padding-right: 2vh; */
+    margin: 0vh 2vh;
+}
+.btn_share p{
+    margin: auto 0vh;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.btn_download{
+    display: flex;
+    margin: auto auto;
+    /* padding: 1vh; */
+    width: 8rem;
+}
+.download_sign{
+    margin: 0vh 1vh;
+    width: 4vh;
+    height: 6vh;
+}
+.btn_download p{
+    margin: auto 0vh;
+    font-size: 2.5vh;
+    font-weight: 600;
+}
+.dot_sign{
+    width: 4vh;
+    height: 5vh;
+    margin: auto;
+}
+#btns_dot{
+    border-radius: 100%;
+    width: 6vh;
+    height: 6vh;
+}

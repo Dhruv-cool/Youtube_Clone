@@ -1,0 +1,61 @@
+.Search_Container{
+    margin: auto;
+    flex-grow:2 ;
+    display: flex;
+    height: 3rem;
+}
+.Search_Container2{
+    margin: auto;
+}
+.search_div{
+    display: flex;
+    margin: auto;
+    position: relative;
+    z-index: 91;
+}
+.Box_SearchBox{
+    width: 30rem;
+    border: 1px solid rgba(128,128,128,0.4);
+    background-color: white;
+    color: black;
+    font-size: large;
+    padding: 0.2rem;
+    height: 2rem;
+    padding-left: 2rem;
+    margin-left: 3vh;
+    border-radius: 20px 0 0 20px;
+}
+.Box_SearchBox_click{
+    width: 34rem;
+    border: 1px solid rgba(128,128,128,0.4);
+    background-color: white;
+    color: black;
+    font-size: large;
+    padding: 0.2rem;
+    height: 2rem;
+    padding-left: 2rem;
+    margin-left: 3vh;
+    border-radius: 20px 0 0 20px;
+}
+.searchIcon_SearchBar{
+    cursor: pointer;
+    padding: 0.7rem;
+    width: 2rem;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid rgba(128,128,128,0.4) ;
+    background-color:rgb(131 126 126 / 13%);
+    color: black;
+}
+.MicIcon_SearchBar{
+    cursor: pointer;
+    border: 1px solid rgba(128,128,128,0.4) ;
+    background-color:rgb(131 126 126 / 13%);
+    padding: 2vh;
+    width: 1rem;
+    border-radius: 100%;
+    margin-left: 3vh;
+}
+.vid_bell_Navabar,
+.MicIcon_SearchBar{
+ margin: auto 0.7rem;
+}

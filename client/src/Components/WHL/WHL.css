@@ -1,0 +1,43 @@
+.det{
+    margin: 0;
+    display: flex;
+    padding: 0.5rem 2.5rem;
+    
+}
+.box_WHL{
+    width: 30%;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    display: flex;
+    flex-direction: column;
+   color: whitesmoke;
+   position: fixed;
+}
+.box_WHL b{
+    font-size: 3rem;
+}
+.clear_history_btn{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 1vh;
+}
+.clear_history_btn:hover{
+    color: black;
+}
+
+.leftside_WHL{
+    height: 80vh;
+   background-color: #595959;
+   border-radius: 17px;
+    
+}
+
+.whl_container{
+    display: flex;
+}
+
+.rightside_whl {
+  margin-left: 35rem; 
+}
